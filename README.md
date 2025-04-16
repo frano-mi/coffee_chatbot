@@ -1,5 +1,3 @@
-# if you're in the root of the coffee_chatbot project:
-echo '$(cat <<EOF
 # ☕ Brazilian Coffee Assistant
 
 <p align="center">
@@ -45,10 +43,10 @@ coffee_chatbot/
 
 ### 1. Clone the Repo
 
-\`\`\`bash
+```bash
 git clone https://github.com/your-username/coffee_chatbot.git
 cd coffee_chatbot
-\`\`\`
+```
 
 ### 2. Set Up a Python Environment
 
