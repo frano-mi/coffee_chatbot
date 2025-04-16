@@ -23,7 +23,7 @@ A friendly, AI-powered chatbot built with [Streamlit](https://streamlit.io/) and
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 coffee_chatbot/
 │
 ├── chatbot_v10-2-3.py        # Main Streamlit app
@@ -35,7 +35,7 @@ coffee_chatbot/
 ├── requirements.txt          # Python dependencies
 ├── .gitignore                # Files to exclude from version control
 └── README.md                 # You're here!
-\`\`\`
+```
 
 ---
 
@@ -82,7 +82,7 @@ See `requirements.txt`. Key libraries include:
 
 ## 💡 Adding Knowledge
 
-Just drop new \`.md\` or \`.txt\` files into the \`knowledge_base/\` folder. The app will index them automatically on startup.
+Just drop new `.md` or `.txt` files into the `knowledge_base/` folder. The app will index them automatically on startup.
 
 ---
 
