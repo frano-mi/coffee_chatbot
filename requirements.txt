@@ -1,0 +1,15 @@
+chromadb==0.6.3
+langchain==0.3.22
+langchain-community==0.3.20
+langchain-core==0.3.49
+langchain-huggingface==0.1.2
+langchain-text-splitters==0.3.7
+langdetect==1.0.9
+ollama==0.4.7
+requests==2.32.3
+sentence-transformers==4.0.2
+streamlit==1.44.1
+torch==2.6.0
+torchaudio==2.6.0
+torchvision==0.21.0
+transformers==4.50.3
