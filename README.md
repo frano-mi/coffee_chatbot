@@ -44,39 +44,39 @@ coffee_chatbot/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/coffee_chatbot.git
+git clone https://github.com/frano-mi/coffee_chatbot.git
 cd coffee_chatbot
 ```
 
 ### 2. Set Up a Python Environment
 
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### 3. Run the Streamlit App
 
 Make sure [Ollama](https://ollama.com/) is running locally and supports the model in \`AppConfig\`.
 
-\`\`\`bash
+```bash
 streamlit run chatbot_v10-2-3.py
-\`\`\`
+```
 
 ---
 
 ## ⚙️ Requirements
 
-See \`requirements.txt\`. Key libraries include:
+See `requirements.txt`. Key libraries include:
 
-- \`streamlit\`
-- \`langchain\`
-- \`langchain_community\`
-- \`langchain_huggingface\`
-- \`sentence-transformers\`
-- \`chromadb\`
-- \`requests\`
+- `streamlit`
+- `langchain`
+- `langchain_community`
+- `langchain_huggingface`
+- `sentence-transformers`
+- `chromadb`
+- `requests`
 
 ---
 
@@ -90,10 +90,10 @@ Just drop new \`.md\` or \`.txt\` files into the \`knowledge_base/\` folder. The
 
 You can run this app in Docker. Add a \`Dockerfile\` and build like:
 
-\`\`\`bash
+```bash
 docker build -t coffee-chatbot .
 docker run -p 8501:8501 coffee-chatbot
-\`\`\`
+```
 
 ---
 
@@ -104,14 +104,7 @@ docker run -p 8501:8501 coffee-chatbot
 - “Is your coffee fair-trade certified?”
 - “What types of coffee do you offer?”
 
----
-
-## 📄 License
-
-MIT License. Feel free to modify and use this project commercially or personally.
 
 ---
 
 ## ☕ Made with passion for Brazilian coffee.
-EOF
-)' > README.md
